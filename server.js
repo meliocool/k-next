@@ -56,6 +56,14 @@ const findSharedTerms = (str1, str2) => {
   return [...set1].filter((item) => set2.has(item));
 };
 
+app.get("/", (req, res) => {
+  res.json({
+    status: "online",
+    message: "K-Next up and running!!!",
+    endpoints: ["/titles", "/recommend?title=<your_drama_title>"],
+  });
+});
+
 app.get("/rec", (req, res) => {
   const { title } = req.query;
   if (!title) {
