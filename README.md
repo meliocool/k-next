@@ -34,7 +34,7 @@ The project is split into two main parts:
 
 ---
 
-## Technology Stack
+## Tech Stack
 
 - **Backend:** Node.js, Express.js
 - **Machine Learning/Data Processing:** Python, Pandas, Scikit-learn
