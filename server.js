@@ -60,7 +60,7 @@ app.get("/", (req, res) => {
   res.json({
     status: "online",
     message: "K-Next up and running!!!",
-    endpoints: ["/titles", "/recommend?title=<your_drama_title>"],
+    endpoints: ["/titles", "/rec?title="],
   });
 });
 
